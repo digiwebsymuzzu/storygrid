@@ -3096,10 +3096,8 @@ kbd {
 
 } */
 .ak-hero.ak-style1 .hero-slider-info .mini-title {
-    max-width: 94%;
     font-size: 18px;
     line-height: 27px;
-    margin: 12px auto;
 }
 .hero-contact-info {
   position: absolute;
@@ -4859,8 +4857,6 @@ h1.hero-main-title,.ak-hero.ak-style1 .hero-slider-info .hero-main-title-1{
 @media (min-width: 1200px) {
   .hero-btn {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 20px;
 }
  }

@@ -32,14 +32,11 @@
                     </video>
 
                     <div class="container">
-                        <div class="hero-slider-info" style="text-align: center;">
+                        <div class="hero-slider-info">
                             <div class="slider-info">
                                 <div class="hero-title">
                                     <h1 class="hero-main-title" data-swiper-parallax="300">Emotion & Story & Precision
                                     </h1>
-                                    <h1 class="hero-main-title-1 style-2" data-swiper-parallax="100">
-                                        That’s our
-                                        frame of reference</h1>
                                     <p class="mini-title" data-swiper-parallax="400">At Story Grid, we transform your
                                         ideas into
                                         cinematic visuals that captivate, inspire, and convert. From powerful
