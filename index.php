@@ -6,10 +6,15 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Thememarch" />
+    <meta name="description"
+        content="Story Grid is a UK-based video production company creating commercials, corporate videos, social content, and brand films with strategic storytelling.">
+    <meta name="keywords"
+        content="video production UK, commercial video, brand films, corporate video, social media content, creative video agency">
+    <meta name="author" content="Story Grid">
+    <meta name="robots" content="index, follow">
     <?php include "include/link.php" ?>
     <link rel="stylesheet" href="assets/css/img-slider.css">
-
+    <title>Story Grid | Video Production Company UK</title>
 </head>
 
 <body>
@@ -32,11 +37,14 @@
                     </video>
 
                     <div class="container">
-                        <div class="hero-slider-info">
+                        <div class="hero-slider-info" style="text-align: center;">
                             <div class="slider-info">
                                 <div class="hero-title">
                                     <h1 class="hero-main-title" data-swiper-parallax="300">Emotion & Story & Precision
                                     </h1>
+                                    <h1 class="hero-main-title-1 style-2" data-swiper-parallax="100">
+                                        That’s our
+                                        frame of reference</h1>
                                     <p class="mini-title" data-swiper-parallax="400">At Story Grid, we transform your
                                         ideas into
                                         cinematic visuals that captivate, inspire, and convert. From powerful
@@ -64,7 +72,6 @@
                     </div>
                     <!-- </div>
         </div> -->
-
                 </div>
                 <div class="social-hero">
                     <a href="" class="social-icon1">
@@ -156,72 +163,77 @@
             <div class="swiper-wrapper mt-5">
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_1.png" alt="">
+                        <img src="assets/img/logo/1.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_2.png" alt="">
+                        <img src="assets/img/logo/2.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_3.png" alt="">
+                        <img src="assets/img/logo/3.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_4.png" alt="">
+                        <img src="assets/img/logo/4.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_5.png" alt="">
+                        <img src="assets/img/logo/5.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_6.png" alt="">
+                        <img src="assets/img/logo/6.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_7.png" alt="">
+                        <img src="assets/img/logo/7.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_1.png" alt="">
+                        <img src="assets/img/logo/8.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_2.png" alt="">
+                        <img src="assets/img/logo/9.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_3.png" alt="">
+                        <img src="assets/img/logo/10.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_4.png" alt="">
+                        <img src="assets/img/logo/11.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_5.png" alt="">
+                        <img src="assets/img/logo/12.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_6.png" alt="">
+                        <img src="assets/img/logo/13.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/trusted-client_7.png" alt="">
+                        <img src="assets/img/logo/14.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="trusted-client">
+                        <img src="assets/img/logo/15.png" alt="">
                     </div>
                 </div>
             </div>
@@ -249,11 +261,6 @@
             background-position: center; 
             background-repeat: no-repeat; ">
 
-                    <div class="heartbeat-icon">
-                        <a href="">
-                            <span class="ak-heartbeat-btn"><img src="assets/img/speedome.svg" alt="..."></span>
-                        </a>
-                    </div>
                     <div class="service-info">
                         <h4 class=" title process">Pre-Production</h4>
                         <div class="opation-all">
@@ -311,14 +318,10 @@
                     <h4 class="ak-stroke-number color-white">02</h4>
                     <div class="ak-border-width"></div>
                 </div>
-                <div class="service-item" style="background-image:url(assets/img/pre-post.jpg);background-size: cover; 
+                <div class="service-item" style="background-image:url(assets/img/production.jpg);background-size: cover; 
             background-position: center; 
             background-repeat: no-repeat; ">
-                    <div class="heartbeat-icon">
-                        <a href="">
-                            <span class="ak-heartbeat-btn"><img src="assets/img/car-repair.svg" alt="..."></span>
-                        </a>
-                    </div>
+
                     <div class="service-info">
                         <h4 class="title">Production</h4>
                         <div class="opation-all">
@@ -375,14 +378,10 @@
                     <h4 class="ak-stroke-number color-white">03</h4>
                     <div class="ak-border-width"></div>
                 </div>
-                <div class="service-item" style="background-image:url(assets/img/pre-post.jpg);background-size: cover; 
+                <div class="service-item" style="background-image:url(assets/img/post-production.jpg);background-size: cover; 
             background-position: center; 
             background-repeat: no-repeat; ">
-                    <div class="heartbeat-icon">
-                        <a href="">
-                            <span class="ak-heartbeat-btn"><img src="assets/img/car.svg" alt="..."></span>
-                        </a>
-                    </div>
+
                     <div class="service-info">
                         <h4 class="title">Post-Production</h4>
                         <div class="opation-all">
@@ -451,7 +450,7 @@
         <!-- Row 1: 3 Cards -->
         <div class="row g-4 justify-content-center mt-5">
             <div class="col-md-4">
-                <div class="custom-card position-relative" style="background-image:url(assets/img/service-one.jpg);   background-size: cover; 
+                <div class="custom-card position-relative" style="background-image:url(assets/img/commercials-ad-films.jpg);   background-size: cover; 
             background-position: center; 
             background-repeat: no-repeat;">
                     <!-- 4 Corners -->
@@ -467,7 +466,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="custom-card position-relative" style="background-image:url(assets/img/service-one.jpg);   background-size: cover; 
+                <div class="custom-card position-relative" style="background-image:url(assets/img/corporate-videos.jpg);   background-size: cover; 
             background-position: center; 
             background-repeat: no-repeat;">
                     <div class="corner-border corner-top-left" style="border-color: #ff3d24"></div>
@@ -482,7 +481,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="custom-card position-relative" style="background-image:url(assets/img/service-one.jpg);   background-size: cover; 
+                <div class="custom-card position-relative" style="background-image:url(assets/img/brand-documentaries.jpg);   background-size: cover; 
             background-position: center; 
             background-repeat: no-repeat;">
                     <div class="corner-border corner-top-left" style="border-color: #ff3d24"></div>
@@ -500,7 +499,7 @@
         <!-- Row 2: 2 Cards -->
         <div class="row g-4 justify-content-center mt-2">
             <div class="col-md-4">
-                <div class="custom-card position-relative" style="background-image:url(assets/img/service-one.jpg);   background-size: cover; 
+                <div class="custom-card position-relative" style="background-image:url(assets/img/social-media-content.jpg);   background-size: cover; 
             background-position: center; 
             background-repeat: no-repeat;">
                     <div class="corner-border corner-top-left" style="border-color: #ff3d24"></div>
@@ -515,7 +514,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="custom-card position-relative" style="background-image:url(assets/img/service-one.jpg);   background-size: cover; 
+                <div class="custom-card position-relative" style="background-image:url(assets/img/explainers.jpg);   background-size: cover; 
             background-position: center; 
             background-repeat: no-repeat;">
                     <div class="corner-border corner-top-left" style="border-color: #ff3d24"></div>

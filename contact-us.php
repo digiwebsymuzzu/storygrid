@@ -6,7 +6,17 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Thememarch" />
+    <!-- Title -->
+    <title>Contact Us | Story Grid – Let’s Talk About Your Next Video Project</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Get in touch with Story Grid — a UK-based video production company ready to bring your brand story to life. Book a discovery call or send us a message.">
+    <meta name="keywords"
+        content="contact video production company, UK video agency, video content creators, book video project, creative video studio, get in touch Story Grid">
+    <meta name="author" content="Story Grid">
+    <meta name="robots" content="index, follow">
+
     <?php include "include/link.php" ?>
 </head>
 
@@ -164,7 +174,7 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <a href="telto:+44 (0)1244 123456" style="font-size: 27px;">
+                                    <a href="tel:+44 (0)1244 123456" style="font-size: 27px;">
                                         <p>+44 (0)1244 123456</p>
                                     </a>
                                 </div>

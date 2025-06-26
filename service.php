@@ -6,7 +6,16 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Thememarch" />
+    <!-- Title -->
+    <title>Our Services | Story Grid – Full-Service Video Production UK</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Explore Story Grid’s full range of video production services including scripting, filming, editing, motion graphics, and delivery for web, TV, and social.">
+    <meta name="keywords"
+        content="video production services UK, pre-production, post-production, corporate videos, commercial filming, motion graphics, editing, drone videography">
+    <meta name="author" content="Story Grid">
+    <meta name="robots" content="index, follow">
     <?php include "include/link.php" ?>
     <link rel="stylesheet" href="assets/css/img-slider.css">
 </head>
@@ -101,12 +110,10 @@
                         <li>Production schedule and call sheet</li>
                         <li>Location and talent approvals</li>
 
-
-
                     </ul>
                 </div>
                 <div class=" choose-us-img" data-aos="fade-up" data-aos-delay="150">
-                    <img src="assets/img/choose-us.png" alt="...">
+                    <img src="assets/img/service-pre-production.png" alt="...">
                 </div>
             </div>
         </div>
@@ -120,7 +127,7 @@
         <div class="choose-us-container-extents">
             <div class="choose-us-contain">
                 <div class=" choose-us-img" data-aos="fade-up" data-aos-delay="150">
-                    <img src="assets/img/choose-us.png" alt="...">
+                    <img src="assets/img/service-production.png" alt="...">
                 </div>
                 <div class="choose-us-info" data-aos="fade-up">
 
@@ -215,7 +222,7 @@
                     </ul>
                 </div>
                 <div class=" choose-us-img" data-aos="fade-up" data-aos-delay="150">
-                    <img src="assets/img/choose-us.png" alt="...">
+                    <img src="assets/img/service-post-production.png" alt="...">
                 </div>
             </div>
         </div>

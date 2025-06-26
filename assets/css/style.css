@@ -3096,8 +3096,10 @@ kbd {
 
 } */
 .ak-hero.ak-style1 .hero-slider-info .mini-title {
+    max-width: 94%;
     font-size: 18px;
     line-height: 27px;
+    margin: 12px auto;
 }
 .hero-contact-info {
   position: absolute;
@@ -4857,6 +4859,8 @@ h1.hero-main-title,.ak-hero.ak-style1 .hero-slider-info .hero-main-title-1{
 @media (min-width: 1200px) {
   .hero-btn {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
  }
@@ -4919,11 +4923,7 @@ h4.title.process {
       padding: 20px;
       text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
     }
-
-   
-
-
-    @keyframes heartbeat {
+  @keyframes heartbeat {
       0%, 100% { transform: scale(1); }
       50% { transform: scale(1.1); }
     }

@@ -1,7 +1,7 @@
 <!-- Favicon Icon -->
 <link rel="icon" href="assets/img/favicon.svg" />
 <!-- Site Title -->
-<title>StoryGrid</title>
+
 <link rel="stylesheet" href="assets/css/plugins/lightgallery.min.css" />
 <link rel="stylesheet" href="assets/css/plugins/swiper.min.css" />
 <link rel="stylesheet" href="assets/css/plugins/aos.css" />
