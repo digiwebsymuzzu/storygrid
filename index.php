@@ -37,7 +37,7 @@
                     </video>
 
                     <div class="container">
-                        <div class="hero-slider-info" style="text-align: center;">
+                        <div class="hero-slider-info">
                             <div class="slider-info">
                                 <div class="hero-title">
                                     <h1 class="hero-main-title" data-swiper-parallax="300">Emotion & Story & Precision
@@ -73,7 +73,7 @@
                     <!-- </div>
         </div> -->
                 </div>
-                <div class="social-hero">
+                <!-- <div class="social-hero">
                     <a href="" class="social-icon1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
                             <path
@@ -118,7 +118,7 @@
                     </a>
                     <div class="social-horizontal"></div>
                     <h6 class="social-link">FOLLOW US</h6>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
