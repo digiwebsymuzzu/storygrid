@@ -13,7 +13,7 @@
     <meta name="author" content="Story Grid">
     <meta name="robots" content="index, follow">
     <?php include "include/link.php" ?>
-    <link rel="stylesheet" href="assets/css/img-slider.css">
+
     <title>Story Grid | Video Production Company UK</title>
 </head>
 
@@ -163,79 +163,71 @@
             <div class="swiper-wrapper mt-5">
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/1.png" alt="">
+                        <img src="assets/img/all-logo/Amazon_Prime_Video_logo.svg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/2.png" alt="">
+                        <img src="assets/img/all-logo/daily-mail.svg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/3.png" alt="">
+                        <img src="assets/img/all-logo/Daily_Mirror_masthead.svg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/4.png" alt="">
+                        <img src="assets/img/all-logo/Eng_Col_RGB_-_Copy.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/5.png" alt="">
+                        <img src="assets/img/all-logo/Five_logo.svg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/6.png" alt="">
+                        <img src="assets/img/all-logo/Grazia-Logo.svg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/7.png" alt="">
+                        <img src="assets/img/all-logo/Guinness_World_Records_logo.svg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/8.png" alt="">
+                        <img src="assets/img/all-logo/ITV_logo_2019.svg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/9.png" alt="">
+                        <img src="assets/img/all-logo/Logo_METRO.svg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/10.png" alt="">
+                        <img src="assets/img/all-logo/NBC_News_(2023).svg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/11.png" alt="">
+                        <img src="assets/img/all-logo/RTL_Logo_2021.svg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/12.png" alt="">
+                        <img src="assets/img/all-logo/The_Sun.svg" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="trusted-client">
-                        <img src="assets/img/logo/13.png" alt="">
+                        <img src="assets/img/all-logo/TLC_Logo.svg" alt="">
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="trusted-client">
-                        <img src="assets/img/logo/14.png" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="trusted-client">
-                        <img src="assets/img/logo/15.png" alt="">
-                    </div>
-                </div>
+
+
             </div>
         </div>
     </div>
@@ -530,14 +522,7 @@
     </div>
     <!--  end what work it -->
 
-    <div class="ak-height-125 ak-height-lg-80"></div>
-    <!--  start story slider -->
-    <div class="container">
-        <div class="cheese-track">
-            <div class="pizza-box" id="funnySlider"></div>
-        </div>
-    </div>
-    <!-- end story slider -->
+
     <!-- Start Testimonial  -->
     <div class="ak-height-125 ak-height-lg-80"></div>
     <div class="container">
@@ -695,7 +680,7 @@
     <!-- End CTA -->
 
     <?php include "include/footer.php" ?>
-    <script src="assets/js/img-slider.js"></script>
+
 </body>
 
 </html>

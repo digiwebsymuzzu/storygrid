@@ -17,7 +17,7 @@
     <meta name="author" content="Story Grid">
     <meta name="robots" content="index, follow">
     <?php include "include/link.php" ?>
-    <link rel="stylesheet" href="assets/css/img-slider.css">
+
 </head>
 
 <body>
@@ -298,13 +298,7 @@
         </div>
     </section>
     <!-- end both section -->
-    <!-- start extra start -->
-    <div class="container mb-4">
-        <div class="cheese-track">
-            <div class="pizza-box" id="funnySlider"></div>
-        </div>
-    </div>
-    <!-- end extra start -->
+
     <!-- start contact us -->
     <div class="primary-color-border"></div>
     <div class="ak-height-100 ak-height-lg-50"></div>
@@ -436,7 +430,7 @@
     <!-- end contact us -->
     <!-- Start Footer -->
     <?php include "include/footer.php" ?>
-    <script src="assets/js/img-slider.js"></script>
+
 </body>
 
 </html>
