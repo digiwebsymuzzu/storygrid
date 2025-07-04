@@ -124,8 +124,9 @@
     </section>
     <!-- End Hero -->
     <!-- Start Through Our Lens -->
-    <div class="ak-height-125 ak-height-lg-80"></div>
-    <div class="container fluid">
+
+
+    <div class="container fluid  mt-5">
         <div class="video-home" onmouseenter="this.querySelector('video').play()"
             onmouseleave="this.querySelector('video').pause()">
 
@@ -149,6 +150,11 @@
             </div>
         </div>
     </div>
+
+
+
+
+
     <!-- End Through Our Lens -->
     <!-- Start Trusted Client -->
     <div class="ak-height-125 ak-height-lg-80"></div>
@@ -521,7 +527,25 @@
 
     </div>
     <!--  end what work it -->
+    <!-- name slider start -->
+    <!-- <div class="ak-height-125 ak-height-lg-80"></div> -->
+    <div class="text-slider-wrapper mt-5">
+        <div class="text-slider" id="textSlider">
+            <div class="text-item" data-image="assets/img/txt-slider/VFX.jpg">VFX</div>
+            <div class="text-item" data-image="assets/img/txt-slider/filming.jpg">Filming</div>
+            <div class="text-item" data-image="assets/img/txt-slider/scriptwriting.jpg">Scriptwriting</div>
+            <div class="text-item" data-image="assets/img/txt-slider/sound.jpg">Sound</div>
+            <div class="text-item" data-image="assets/img/txt-slider/editing.jpg">Editing</div>
+            <div class="text-item" data-image="assets/img/txt-slider/cinematography.jpg">Cinematography</div>
+            <div class="text-item" data-image="assets/img/txt-slider/color-grading.jpg">Color Grading</div>
+            <div class="text-item" data-image="assets/img/txt-slider/motion-graphics.jpg">Motion Graphics</div>
 
+        </div>
+        <div class="hover-image" id="hoverImage"></div>
+    </div>
+
+
+    <!-- name slider end -->
 
     <!-- Start Testimonial  -->
     <div class="ak-height-125 ak-height-lg-80"></div>

@@ -506,6 +506,92 @@
       }
     });
   }
+const section = document.querySelector('.video-home');
+    let lastScrollTop = 0;
+
+    window.addEventListener('scroll', () => {
+        const rect = section.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        const currentScroll = window.scrollY;
+
+        if (rect.top < windowHeight && rect.bottom > 0) {
+            if (currentScroll > lastScrollTop) {
+                // Scroll down → Zoom in + expand
+                section.classList.add('active');
+            } else {
+                // Scroll up → Zoom out + collapse
+                section.classList.remove('active');
+            }
+        }
+
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+    });
+
+ 
+ 
+ //txt slider
+  const textItems = document.querySelectorAll('.text-item');
+  const hoverImage = document.getElementById('hoverImage');
+
+  let currentHovered = null;
+
+  function showImage(imageUrl) {
+    hoverImage.style.transition = 'none';
+    hoverImage.style.opacity = '0';
+    hoverImage.style.width = '400px';
+    hoverImage.style.height = '400px';
+    hoverImage.style.transform = 'translate(-50%, -50%) scale(1.3)';
+
+    requestAnimationFrame(() => {
+      hoverImage.style.transition = 'transform 0.5s ease, opacity 0.5s ease, width 0.5s ease, height 0.5s ease';
+      hoverImage.style.backgroundImage = `url('${imageUrl}')`;
+      hoverImage.style.opacity = '1';
+      hoverImage.style.width = '200px';
+      hoverImage.style.height = '200px';
+      hoverImage.style.transform = 'translate(-50%, -50%) scale(1)';
+    });
+  }
+
+  function hideImage() {
+    hoverImage.style.transition = 'transform 0.2s ease';
+    hoverImage.style.transform = 'translate(-50%, -50%) scale(1.1)';
+    setTimeout(() => {
+      hoverImage.style.transition = 'transform 0.4s ease, opacity 0.4s ease, width 0.4s ease, height 0.4s ease';
+      hoverImage.style.opacity = '0';
+      hoverImage.style.width = '400px';
+      hoverImage.style.height = '400px';
+      hoverImage.style.transform = 'translate(-50%, -50%) scale(1.3)';
+    }, 200);
+  }
+
+  // Track mouse position
+  let mouseX = window.innerWidth / 2;
+  let mouseY = window.innerHeight / 2;
+
+  document.addEventListener('mousemove', (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+    hoverImage.style.left = `${mouseX}px`;
+    hoverImage.style.top = `${mouseY}px`;
+  });
+
+  // Detect hover based on text under mouse
+  setInterval(() => {
+    const element = document.elementFromPoint(mouseX, mouseY);
+    if (element && element.classList.contains('text-item')) {
+      if (element !== currentHovered) {
+        const imageUrl = element.getAttribute('data-image');
+        showImage(imageUrl);
+        currentHovered = element;
+      }
+    } else {
+      if (currentHovered !== null) {
+        hideImage();
+        currentHovered = null;
+      }
+    }
+  }, 100);
+
 
 })(jQuery);
  
