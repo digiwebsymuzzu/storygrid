@@ -528,7 +528,7 @@
     </div>
     <!--  end what work it -->
     <!-- name slider start -->
-    <!-- <div class="ak-height-125 ak-height-lg-80"></div> -->
+
     <div class="text-slider-wrapper mt-5">
         <div class="text-slider" id="textSlider">
             <div class="text-item" data-image="assets/img/txt-slider/VFX.jpg">VFX</div>

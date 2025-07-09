@@ -199,7 +199,7 @@
 
         <div class="primary-color-border"></div>
         <div class="copy-right">
-            <p class="title  text-hover-animaiton">Copyright 2024, All Right reserved</p>
+            <p class="title  text-hover-animaiton">Copyright 2025, All Right reserved</p>
 
         </div>
     </div>
